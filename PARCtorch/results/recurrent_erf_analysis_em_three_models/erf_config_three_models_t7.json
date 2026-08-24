@@ -1,0 +1,43 @@
+{
+  "output_point": [
+    60,
+    123
+  ],
+  "start_timestep": 7,
+  "channel": 0,
+  "channel_name": "Temperature (T)",
+  "future_steps": 9,
+  "erf_threshold": 0.01,
+  "input_shape": [
+    1,
+    5,
+    128,
+    256
+  ],
+  "model_deform_checkpoint": "../florian_weights/1701_1900seq3/deform_model_epoch_15.pth",
+  "model_standard_checkpoint": "../phong_weights/601_1800/deform_model_epoch_600.pth",
+  "model_large_checkpoint": "../massive/em/weights/deform_model_epoch_400.pth",
+  "statistics": {
+    "activated_pixels": {
+      "D-PARC": 4048,
+      "PARC-v2": 511,
+      "Large PARC-v2": 178
+    },
+    "erf_spread": {
+      "D-PARC": 29.916167054751618,
+      "PARC-v2": 14.555864670994838,
+      "Large PARC-v2": 5.340915471715702
+    },
+    "overlap": {
+      "D-PARC and PARC-v2": 448,
+      "D-PARC and Large": 178,
+      "PARC-v2 and Large": 168,
+      "All three": 168
+    },
+    "unique": {
+      "D-PARC only": 3590,
+      "PARC-v2 only": 63,
+      "Large PARC-v2 only": 0
+    }
+  }
+}

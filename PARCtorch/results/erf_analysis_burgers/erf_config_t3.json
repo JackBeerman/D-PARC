@@ -1,0 +1,17 @@
+{
+  "output_point": [
+    50,
+    50
+  ],
+  "timestep": 3,
+  "channel": 1,
+  "future_steps": 4,
+  "input_shape": [
+    1,
+    3,
+    64,
+    64
+  ],
+  "model_deform_checkpoint": "/scratch/jtb3sud/burger_dparc/weights/burgers_model_epoch_300.pth",
+  "model_no_deform_checkpoint": "/scratch/jtb3sud/burger_phong/weights/501_1000/burgers_model_epoch_400.pth"
+}

@@ -1,0 +1,17 @@
+# Jupyter / Python housekeeping
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large regeneratable analysis output
+*.csv
+
+# Model checkpoints
+*.pth
+checkpoint_epoch_*.pth
+latest_checkpoint.pth
+
+# Generated figures/animations/documents
+*.png
+*.gif
+*.pdf

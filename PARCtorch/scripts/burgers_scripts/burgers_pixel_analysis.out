@@ -1,0 +1,12 @@
+Loading modules and activating Conda environment...
+--------------------------------
+Job Configuration:
+Model: /home/jtb3sud/PARCtorch/PARCtorch/burgers/1431_1800/weights/burgers_model_epoch_10.pth
+Data: /project/vil_baek/data/physics/PARCTorch/Burgers/test
+Output Directory: /home/jtb3sud/PARCtorch/PARCtorch/scripts/eval_results/burgers/per_pixel_analysis_upBlock_1
+Layer: upBlock_1
+Future Steps: 100
+Batch Size: 4
+--------------------------------
+Starting Python script for per-pixel analysis...
+Script finished successfully.

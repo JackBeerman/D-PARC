@@ -1,0 +1,17 @@
+========================================================
+Job started on udc-an37-1 at Mon Aug 25 15:45:16 EDT 2025
+Setting up the environment...
+Configuring analysis parameters...
+--------------------------------------------------------
+Starting Python per-pixel analysis script...
+SLURM Job ID:      2637670
+Layer:             upBlock_3
+Batch Size:        2
+Model:             /home/jtb3sud/PARCtorch/PARCtorch/e4/3501_4000/weights/ns_model_epoch_500.pth
+Evaluation Data:   /project/vil_baek/data/physics/PARCTorch/NavierStokes/test
+Output Directory:  /home/jtb3sud/PARCtorch/PARCtorch/scripts/eval_results/ns/perpixel_job_2637670
+--------------------------------------------------------
+========================================================
+Python script finished.
+Job completed at Mon Aug 25 16:24:22 EDT 2025
+========================================================

@@ -1,0 +1,17 @@
+{
+  "output_point": [
+    82,
+    87
+  ],
+  "timestep": 3,
+  "channel": 2,
+  "future_steps": 4,
+  "input_shape": [
+    1,
+    4,
+    128,
+    256
+  ],
+  "model_deform_checkpoint": "../weights/ns_model_epoch_75.pth",
+  "model_no_deform_checkpoint": "../weights/phong_model_epoch_1000.pth"
+}
